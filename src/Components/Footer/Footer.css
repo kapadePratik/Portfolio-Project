@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    
+}
+
+.footer-bg{
+    background-image: url('../../img/wave.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.f-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4rem;
+    gap: 4rem;
+    color: white;
+}
+
+.f-icons{
+    display: flex;
+    gap: 2rem;
+     align-items: center;
+     margin-top: 4rem;
+}
+.f-contact > span {
+    color: white;
+     align-items: center;
+     text-align: center;
+}
